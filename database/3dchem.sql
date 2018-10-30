@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 29, 2018 at 09:49 AM
+-- Generation Time: Oct 30, 2018 at 11:28 PM
 -- Server version: 5.5.27
 -- PHP Version: 5.4.7
 
@@ -39,7 +39,7 @@ CREATE TABLE IF NOT EXISTS `admins` (
 --
 
 INSERT INTO `admins` (`id`, `username`, `password`, `last_login`) VALUES
-(1, 'admin', '12345', '2018-09-24 21:59:29');
+(1, 'admin', 'admin', '2018-10-31 05:27:40');
 
 -- --------------------------------------------------------
 
@@ -251,7 +251,7 @@ CREATE TABLE IF NOT EXISTS `quiz_takers` (
   `date_time` datetime NOT NULL DEFAULT '0000-00-00 00:00:00',
   `duration` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=64 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=66 ;
 
 --
 -- Dumping data for table `quiz_takers`
@@ -315,7 +315,9 @@ INSERT INTO `quiz_takers` (`id`, `username`, `quiz_id`, `marks`, `percentage`, `
 (60, 'Danny Zweis', 4, 2, '40', '2018-08-29 14:40:43', 73),
 (61, 'Iggy Azazael', 4, 2, '40', '2018-08-30 10:06:42', 9),
 (62, 'Hikari Nur Cahya', 4, 1, '20', '2018-08-30 10:50:24', 9),
-(63, 'Dimas Arie', 4, 1, '20', '2018-09-24 22:01:49', 9);
+(63, 'Dimas Arie', 4, 1, '20', '2018-09-24 22:01:49', 9),
+(64, 'dfsafaf', 4, 2, '40', '2018-10-30 23:43:11', 7),
+(65, 'arob swire', 4, 4, '80', '2018-10-30 23:46:33', 7);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
